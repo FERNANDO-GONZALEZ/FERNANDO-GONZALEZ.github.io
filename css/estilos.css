@@ -12,7 +12,7 @@ padding: 0;
 body 
 {
 	background: #FDFEFE ;
-	color: #FDFEFE;
+	color: #FDFEFE; /*color blanco*/
 	font-family:"Sintony", sans-serif;
 	font-size: 16px;
 	margin: 0 auto;
@@ -36,14 +36,14 @@ nav
 {
 	padding: 2px 7px 2px 7px;
 	font-size: 20px;
-	background: #006680;
-	color: ##FDFEFE;
+	background: #F2B80D; /*color Azul*/
+	text-decoration: none;
 }
 
 nav:hover
 {
 	background: #F2B80D;
-	color: #17202A;
+	/*color: #FDFEFE;  /*color blanco*/
 }
 
 h1
@@ -57,21 +57,35 @@ h1
 {
    list-style-type: none;
    text-align: center;
+   text-decoration: none;
 }
 
 #navegador li
 {
    display: inline;
-   /*text-align: center;
+   text-align: center;
    margin: 0 10px 0 0;*/
-   background: #006680;
+  /background: #006680;
+  
    /*color: #F8F9F9;
-   border: 1px solid #ccc;
-   text-decoration: none;*/
+   border: 1px solid #ccc;*/
+   
 }
 
 #navegador li a:hover
 {
-	background: #F2B80D;
-	color: #17202A;
+	background: #F2B80D; /*color amarillo*/
+	color: #F8F9F9; /*color blanco*/
+}
+
+aside
+{
+background: #F2B80D; /*color amarillo*/
+	color: #F8F9F9; /*color blanco*/
+}
+footer
+{
+	background: #FF5900; /*color naranja*/
+	color: #F8F9F9; /*color blanco*/	
+}
 }
