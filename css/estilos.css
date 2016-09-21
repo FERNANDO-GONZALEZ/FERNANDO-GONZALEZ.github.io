@@ -1,0 +1,77 @@
+/*1 Se definen los estilos para las etiquetas*/
+/*2 Se definen los estilos para etiquetas con identificadores*/
+/*3 Se definen los estilos para las clases*/
+
+*
+{
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+body 
+{
+	background: #FDFEFE ;
+	color: #FDFEFE;
+	font-family:"Sintony", sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+p
+{
+	color: #F60;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+
+p:hover
+{
+	color: #009999;
+	text-align: justify;
+}
+
+nav
+{
+	padding: 2px 7px 2px 7px;
+	font-size: 20px;
+	background: #006680;
+	color: ##FDFEFE;
+}
+
+nav:hover
+{
+	background: #F2B80D;
+	color: #17202A;
+}
+
+h1
+{
+	background: #006680;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+#navegador ul
+{
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li
+{
+   display: inline;
+   /*text-align: center;
+   margin: 0 10px 0 0;*/
+   background: #006680;
+   /*color: #F8F9F9;
+   border: 1px solid #ccc;
+   text-decoration: none;*/
+}
+
+#navegador li a:hover
+{
+	background: #F2B80D;
+	color: #17202A;
+}
