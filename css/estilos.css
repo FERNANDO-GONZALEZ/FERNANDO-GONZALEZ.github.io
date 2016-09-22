@@ -13,7 +13,7 @@ body
 {
 	background: #FDFEFE ;
 	color: #FDFEFE; /*color blanco*/
-	font-family:"Angsana new"; /*"Franklin Gothic Heavy"; "Franklin Gothic book", sans-serif;*/
+	font-family:"Franklin Gothic Heavy"; /* "Franklin Gothic book";*/ /*"Angsana new";*/ 
 	font-size: 16px;
 	margin: 0 auto;
 }
@@ -36,6 +36,7 @@ nav
 {
 	padding: 2px 7px 2px 7px;
 	font-size: 20px;
+	font-family: "Angsana new";
 	background: #F2B80D; /*color Azul*/
 	text-decoration: none;
 }
@@ -43,7 +44,7 @@ nav
 nav:hover
 {
 	background: #F2B80D;
-	font-family:"Franklin Gothic book";
+	font-family: "Angsana new";/*"Franklin Gothic book";*/
 	/*color: #FDFEFE;  /*color blanco*/
 }
 
@@ -52,6 +53,7 @@ h1
 	background: #006680;
 	text-align: center;
 	font-size: 1.6em;
+	font-family: "Franklin Gothic book";
 }
 
 #navegador ul
@@ -59,6 +61,7 @@ h1
    list-style-type: none;
    text-align: center;
    text-decoration: none;
+   font-family: "Franklin Gothic book";
 }
 
 #navegador li
