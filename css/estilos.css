@@ -8,88 +8,121 @@ border: 0;
 margin: 0;
 padding: 0;
 }
-
 body 
 {
-	background: #FDFEFE ;
-	color: #FDFEFE; /*color blanco*/
+	/*background: #FDFEFE ;*/
+	color: #F8F9F9; /*color blanco*/
 	font-family:"Franklin Gothic Heavy"; /* "Franklin Gothic book";*/ /*"Angsana new";*/ 
-	font-size: 16px;
-	margin: 0 auto;
-}
-
-p
-{
-	color: #F60;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: right;
-}
-
-p:hover
-{
-	color: #009999;
-	text-align: justify;
-}
-
-nav
-{
-	padding: 2px 7px 2px 7px;
+	text-align: center; 
 	font-size: 20px;
-	font-family: "Angsana new";
-	background: #F2B80D; /*color Azul*/
-	text-decoration: none;
-}
-
-nav:hover
-{
-	background: #F2B80D;
-	font-family: "Angsana new";/*"Franklin Gothic book";*/
-	/*color: #FDFEFE;  /*color blanco*/
+	margin: 0 auto;
 }
 
 h1
 {
-	background: #006680;
+	height: 50px;  /*a lo alto*/
+font-size: 2.0em;
+	background: #006680; /*COLOR AZUL*/
+	color: #F8F9F9; /*color BLANCO*/
 	text-align: center;
-	font-size: 1.6em;
+	/*font-size: 1.6em;*/
 	font-family: "Franklin Gothic book";
+	border-radius: 20px; /*radio del ovalo*/
+}
+
+p
+{
+	height: 50px;  /*a lo alto*/
+	background: #FF5900; /*color naranja*/
+	color: #F8F9F9;  /*color blanco*/
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 20px; /*radio del ovalo*/
+	font-size: 2.0em
+}
+p:hover
+{
+	background: #F8F9F9; /*color blanco*/
+	color: #FF5900;  /*color naranja*/
+	font-weight: bold;
+	text-align: center;
+}
+
+nav
+{
+	height: 50px;  /*a lo alto*/
+	background: #F2B80D; /*color AMARILLO*/
+	color: #F2B80D;  /*color AMARILLO*/
+	padding: 2px 7px 2px 7px;
+	font-size: 20px;
+	font-family: "Angsana new";
+	border-radius: 20px; /*radio del ovalo*/
+	text-align: center; 
+	font-size: 2.0em
+}
+
+nav:hover
+{
+	background: #F2B80D; /*color AMARILLO*/
+
 }
 
 #navegador ul
 {
+   /*background: #FF5900; /*color naranja*/
+   background: #F2B80D; /*color amarillo*/
    list-style-type: none;
    text-align: center;
-   text-decoration: none;
    font-family: "Franklin Gothic book";
 }
 
 #navegador li
 {
+   color: #F8F9F9; /*color BLANCO*/
+   /*background: #006680; /*COLOR azul*/
    display: inline;
    text-align: center;
-   margin: 0 10px 0 0;*/
-  /background: #006680;
-  
-   /*color: #F8F9F9;
-   border: 1px solid #ccc;*/
-   
+   text-decoration: none;
+   font-family: "Angsana new";
+   font-size: 2.0em
+   margin: 0 10px 0 0;
+   border: 2px solid #ccc;
 }
 
-#navegador li a:hover
+#navegador li:hover
 {
 	background: #F2B80D; /*color amarillo*/
 	color: #F8F9F9; /*color blanco*/
+	border-radius: 20px; /*radio del ovalo*/
 }
 
 aside
 {
-background: #F2B80D; /*color amarillo*/
-	color: #F8F9F9; /*color blanco*/
+	background: center;
+	background: #F2B80D; /*color amarillo*/
+	color: #006680; /*azul*/
+	font-family: "Angsana new";
+	font-size: 2.0em
+ 	text-align: center; 
+ 	vertical-align: 
+	height: 240px;  /*a lo alto*/
+	margin-top: 10px;
+	border-radius: 20px; /*radio del ovalo*/
 }
 footer
 {
-	background: #FF5900; /*color naranja*/
-	color: #F8F9F9; /*color blanco*/	
+	background: #006680; /*fondo azul*/
+	color: #F8F9F9; /*fuente color blanco*/
+	font-size: 2.0em;
+	font-family: "Angsana new";
+ 
+	width: 1365px; /*a lo ancho*/
+	height: 50px;  /*a lo alto*/
+	float: center; /*left right*/
+	margin-top: 10px; /*separación desde el último objeto*/
+	border-radius: 20px; /*radio del ovalo*/
+	margin-bottom: 0px; /*sin efecto*/
+	text-align: center; 
 }
 }
